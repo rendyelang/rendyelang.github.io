@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+body {
+    background-color: #eaeaea;
+    font: 16px/68px, arial, sans-serif;
+    color: #333333;
+	background-image: url(img/bg.png);
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h1.judul {
+	font-size: 45px;
+	font-weight: bold;
+	float: left;
+	color: gold;
+	margin-top: -13px;
+}
+
+.header ul li {
+	float: right;
+}
+
+.header a {
+	text-decoration: none;
+	color: #d04141;
+	padding: 0 15px;
+	display: block;
+	font-size: 17px;
+	line-height: 60px;
+	margin-top: -20px;
+}
+
+.header a:hover {
+	background-color: aquamarine;
+	transition: all 0.4s;
+}
+
+.hero {
+	height: 300px;
+	background-image: url(img/stdn.png);
+	margin-top: 20px;
+	background-position: 0 -100px;
+	background-size: cover;
+	border-top: 4px solid #d04141;
+	border-bottom: 4px solid #38a7df;
+}
+
+.content {
+	padding : 20px;
+}
+
+.content h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.content a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.content p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 20px;
+}
+
+.footer {
+	background-color: #333333;
+	padding: 25px;
+	text-align: center;
+}
+
+.copy {
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	color: salmon;
+}
